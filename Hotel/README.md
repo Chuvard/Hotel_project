@@ -40,7 +40,7 @@ This project is licensed under the [MIT License](LICENSE). You are free to modif
 
 ## Business Metrics and Other Data
 
-The main business metric is the hotel's profit, calculated as the difference between room costs for all nights and service costs (room preparation and guest stay). The hotel has various room categories with different rates and cleaning frequencies. Seasonal coefficients influence pricing, with 20% and 40% increases in spring/autumn and summer, respectively. The system's development budget is 400,000 rubles, aiming to cover costs during the test period.
+The main business metric is the hotel's profit, calculated as the difference between room costs for all nights and service costs (room preparation and guest stay). The hotel has various room categories with different rates and cleaning frequencies. Seasonal coefficients influence pricing, with 20% and 40% increases in spring/autumn and summer, respectively. The system's development budget is 25,000 euros, aiming to cover costs during the test period.
 
 ## Execution Instructions
 
