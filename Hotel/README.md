@@ -1,6 +1,6 @@
 # Predictive Reservation System
 
-========================================================================================
+=======================================================================================
 
 ## Problem Statement
 
@@ -24,7 +24,8 @@ The hotel chain "As a guest" faces losses due to room reservation cancellations.
 2. Navigate to the project directory: `cd predictive-reservation-system`
 3. Install required packages: `pip install -r requirements.txt`
 
-## Technologies
+> [!IMPORTANT]
+> ## Technologies
 
 - Python
 - Jupyter Notebooks
