@@ -1,6 +1,6 @@
 # Predictive Reservation System
 
-==============================================================================================================
+========================================================================================
 
 ## Problem Statement
 
@@ -17,8 +17,8 @@ The hotel chain "As a guest" faces losses due to room reservation cancellations.
 - Customer profiling based on exploratory data analysis
 - Recommendations for business improvement
 
-[!TIP]
-## How to Install Packages
+> [!TIP]
+> ## How to Install Packages
 
 1. Clone the repository: `git clone https://github.com/yourusername/predictive-reservation-system.git`
 2. Navigate to the project directory: `cd predictive-reservation-system`
