@@ -4,12 +4,12 @@
 
 ## Problem Statement
 
-The hotel chain "As a guest" faces losses due to room reservation cancellations. These cancellations result in financial setbacks, including purchasing supplies for guests' arrival or the inability to find alternative clients in time. To address this issue, a system is needed to predict reservation abandonment and prompt clients to pay a deposit if the model indicates a likely cancellation. The deposit is 80% of the room rate for one day and the one-time cleaning cost, debited if the reservation is eventually canceled.
+The hotel chain "Hiltonview" faces losses due to room reservation cancellations. These cancellations result in financial setbacks, including purchasing supplies for guests' arrival or the inability to find alternative clients in time. To address this issue, a system is needed to predict reservation abandonment and prompt clients to pay a deposit if the model indicates a likely cancellation. The deposit is 80% of the room rate for one day and the one-time cleaning cost, debited if the reservation is eventually canceled.
 
 ## Features of the Project
 
 - Prediction of reservation abandonment
-- Deposit request for at-risk reservations
+- Deposit requests for at-risk reservations
 - Dynamic deposit calculation (80% of room rate + one-time cleaning cost)
 - Seasonal pricing adjustments (20% increase in spring and autumn, 40% increase in summer)
 - Profit estimation without implementing deposits
@@ -17,36 +17,35 @@ The hotel chain "As a guest" faces losses due to room reservation cancellations.
 - Customer profiling based on exploratory data analysis
 - Recommendations for business improvement
 
-> [!TIP]
-> ## How to Install Packages
-
-1. Clone the repository: `git clone https://github.com/yourusername/predictive-reservation-system.git`
-2. Navigate to the project directory: `cd predictive-reservation-system`
-3. Install required packages: `pip install -r requirements.txt`
-
 > [!IMPORTANT]
 > ## Technologies
 
 - Python
 - Jupyter Notebooks
 - Pandas, NumPy, Scikit-learn for data manipulation and machine learning
-- Data files: `/datasets/hotel_train.csv`, `/datasets/hotel_test.csv`
-
-## Licenses
-
-This project is licensed under the [MIT License](LICENSE). You are free to modify and distribute the code for commercial or non-commercial purposes.
-
----
+- Matplotlib, Seaborn for Data Visualization
+- Data files: `/data/hotel_train.csv`, `/data/hotel_test.csv`
 
 ## Business Metrics and Other Data
 
 The main business metric is the hotel's profit, calculated as the difference between room costs for all nights and service costs (room preparation and guest stay). The hotel has various room categories with different rates and cleaning frequencies. Seasonal coefficients influence pricing, with 20% and 40% increases in spring/autumn and summer, respectively. The system's development budget is 20,000 euros, aiming to cover costs during the test period.
 
+## Licenses
+
+This project is licensed under the [MIT License](LICENSE). You are free to modify and distribute the code for commercial or non-commercial purposes.
+
+## Collaborators
+
+This project was developed by @
+
+
+
+
 ## Execution Instructions
 
 ### Step 1: Open the data files
-- Training Data: `/datasets/hotel_train.csv`
-- Testing Data: `/datasets/hotel_test.csv`
+- Training Data: `/data/hotel_train.csv`
+- Testing Data: `/data/hotel_test.csv`
 
 ### Step 2: Pre-processing and EDA
 - Review and correct data if needed.
