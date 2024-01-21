@@ -36,8 +36,7 @@ This project is licensed under the [MIT License](LICENSE). You are free to modif
 
 ## Collaborators
 
-This project was developed by @
-
+This project was developed by @Chuvard and @Jaguar838
 
 
 
